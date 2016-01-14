@@ -1,2 +1,2 @@
 # CoursePlanner
-Stuff
+Stuff and things
