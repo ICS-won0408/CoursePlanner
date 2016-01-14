@@ -1,0 +1,20 @@
+ul {
+	margin: 0;
+	padding: 0;
+	background-color: #e4e4e4;
+	position: fixed;
+}
+
+li a {
+	display: block;
+}
+
+li a:hover {
+	background-color: #6cdc00;
+	color: white;
+}
+
+.active {
+	background-color: #316400;
+	color: white;
+}
