@@ -25,7 +25,7 @@
 
 <div class = "main">
   <h2> Courses </h2>
-  <table class = "table table-bordered">
+  <table id = "courses"></table><table class = "table table-bordered">
     <thead>
       <tr>
         <th>Course</th>
@@ -34,15 +34,15 @@
         <th>Department</th>
       </tr>
     </thead>
-    <tbody>
-      <tr>
-        <td>AP European History</td>
-        <td>0.0</td>
-        <td>Prasad</td>
-        <td>History</td>
-      </tr>
-    </tbody>
   </table>
+  <script>
+    $.getJSON("data/Courses.json", function(data)
+    {
+      $.each(data, function(key, val){
+        $('#Courses').append("<tr><td> + data.Course + </td><td> + data.Rating + </td><td>+data.Department+</td><td> + data.Course</td></tr>");
+      });
+    });
+  </script>
 </div>
 </body>
 </html>
