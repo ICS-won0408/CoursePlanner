@@ -39,7 +39,7 @@
     $.getJSON("data/Courses.json", function(data)
     {
       $.each(data, function(key, val){
-        $('#courses').append("<tr><td>" + data.Course + "</td><td>" + data.Rating + "</td><td>"+data.Department+"</td><td>" + data.Course"</td></tr>");
+        $('#courses').append("<tr><td>" + val.Course + "</td><td>" + val.Rating + "</td><td>"+val.Department+"</td><td>" + val.Course"</td></tr>");
       });
     });
   </script>
