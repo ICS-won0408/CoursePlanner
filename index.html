@@ -25,21 +25,23 @@
 
 <div class = "main">
   <h2> Courses </h2>
-  <table id = "courses"><table class = "table table-bordered">
-    <thead>
-      <tr>
-        <th>Course</th>
-        <th>Rating</th>
-        <th>Teacher</th>
-        <th>Department</th>
-      </tr>
-    </thead>
-  </table>
+  <div id = "courses">
+    <table class = "table table-bordered">
+      <thead>
+        <tr>
+          <th>Course</th>
+          <th>Rating</th>
+          <th>Teacher</th>
+          <th>Department</th>
+        </tr>
+      </thead>
+    </table>
+  </div>
   <script>
     $.getJSON("data/Courses.json", function(data)
     {
       $.each(data, function(key, val){
-        $('#courses').append("<tr><td>" + val.Course + "</td><td>" + val.Rating + "</td><td>"+val.Department+"</td><td>" + val.Course"</td></tr>");
+        $('#courses table').append("<tr><td>" + val.Course + "</td><td>" + val.Rating + "</td><td>"+val.Department+"</td><td>" + val.Course"</td></tr>");
       });
     });
   </script>
