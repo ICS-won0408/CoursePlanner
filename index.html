@@ -41,7 +41,7 @@
     $.getJSON("data/Courses.json", function(data)
     {
       $.each(data, function(key, val){
-        $('#courses table').append("<tr><td>" + val.Course + "</td><td>" + val.Rating + "</td><td>"+val.Department+"</td><td>" + val.Course"</td></tr>");
+        $('#table table-bordered').append("<tr><td>" + val.Course + "</td><td>" + val.Rating + "</td><td>"+val.Department+"</td><td>" + val.Course"</td></tr>");
       });
     });
   </script>
