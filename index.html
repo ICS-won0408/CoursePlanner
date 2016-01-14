@@ -34,15 +34,14 @@
         <th>Department</th>
       </tr>
     </thead>
-    <tbody>
-    </tbody>
+   <tbody></table>
   </table>
   <script>
     $(document).ready(function(){  
       $.getJSON("data/Courses.json", function(data)
       {
         $.each(data, function(key, val){
-          $('#courses tbody').append("<tr><td>" + val.Course + "</td><td>" + val.Rating + "</td><td>"+val.Department+"</td><td>" + val.Course"</td></tr>");
+          $('#courses tbody').append("<tr><td>" + val.Course + "</td><td>" + val.Rating + "</td><td>"+val.Department+"</td><td>" + val.Course + "</td></tr>");
         });
       });
     });
