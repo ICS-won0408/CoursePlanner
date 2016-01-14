@@ -38,10 +38,12 @@
     </table>
   </div>
   <script>
-    $.getJSON("data/Courses.json", function(data)
-    {
-      $.each(data, function(key, val){
-        $('#table table-bordered').append("<tr><td>" + val.Course + "</td><td>" + val.Rating + "</td><td>"+val.Department+"</td><td>" + val.Course"</td></tr>");
+    $(document).ready(function(){  
+      $.getJSON("data/Courses.json", function(data)
+      {
+        $.each(data, function(key, val){
+          $('#table table-bordered').append("<tr><td>" + val.Course + "</td><td>" + val.Rating + "</td><td>"+val.Department+"</td><td>" + val.Course"</td></tr>");
+        });
       });
     });
   </script>
