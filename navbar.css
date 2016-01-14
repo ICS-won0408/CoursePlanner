@@ -1,20 +1,16 @@
 ul {
 	margin: 0;
 	padding: 0;
-	background-color: #e4e4e4;
+	background-color: #E0E0E0;
 	position: fixed;
 }
 
 li a {
 	display: block;
-}
-
-li a:hover {
-	background-color: #6cdc00;
-	color: white;
+	color: #000000;
 }
 
 .active {
-	background-color: #316400;
+	background-color: #00a500;
 	color: white;
 }
