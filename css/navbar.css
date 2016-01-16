@@ -4,6 +4,7 @@
 }
 
 .navbar-customized .nav > li > a:hover {
+	background-color: #181818;
     	-webkit-transition: all ease .4s;
     	-moz-transition: all ease .4s;
     	-ms-transition: all ease .4s;
@@ -12,7 +13,6 @@
 }
 
 .navbar-customized .nav > li > a {
-	background-color: #181818;
 	color: 	#ffffff;
 }
 
