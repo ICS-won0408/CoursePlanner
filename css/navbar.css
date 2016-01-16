@@ -3,14 +3,15 @@
 	font-family: "Century Gothic", sans-serif;
 }
 
-.navbar-customized .navbar-hover,
-.navbar-customized .navbar-focus {
+.navbar-customized .nav > li > a, 
+.navbar-customized .nav > li > a:hover {
 	background-color: #181818;
 	color: 	#ffffff;
     	-webkit-transition: all ease .4s;
     	-moz-transition: all ease .4s;
     	-ms-transition: all ease .4s;
     	-o-transition: all ease .4s;
+    	transition: all ease .4s;
 }
 
 .navbar-customized .navbar-nav > .active > a, 
