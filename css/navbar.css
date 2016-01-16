@@ -1,13 +1,17 @@
-ul {
-	background-color: #E0E0E0;
+.navbar-customized {
+	background-color: #708090;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-li a {
-	display: block;
+.navbar-customized .navbar-hover,
+.navbar-customize .navbar-focus {
+	color: #3b4442;
+}
+
+.navbar-customized .navbar-active {
+	color: #009900;
+}
+
+.navbar-customized .navbar-brand {
 	color: #000000;
-}
-
-.active {
-	background-color: #0000CC;
-	color: white;
 }
