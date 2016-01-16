@@ -1,13 +1,11 @@
 @font-face {
 	font-family: 'Bellerose';
-	font-style: normal;
-	font-weight: normal;
-	src: url('font/Bellerose')
+	src: url('http://dl.dafont.com/dl/?f=bellerose')
 }
 
 .navbar-customized {
 	background-color: #666666;
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: "Bellerose";
 }
 
 .navbar-customized .navbar-hover,
