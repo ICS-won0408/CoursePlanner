@@ -7,6 +7,10 @@
 .navbar-customized .navbar-focus {
 	background-color: #181818;
 	color: 	#ffffff;
+    -webkit-transition: opacity .4s ease-in-out;
+    -moz-transition: opacity .4s ease-in-out;
+    -ms-transition: opacity .4s ease-in-out;
+    -o-transition: opacity .4s ease-in-out;
 }
 
 .navbar-customized .navbar-nav > .active > a, 
@@ -14,6 +18,10 @@
 .navbar-customized .navbar-nav > .active > a:focus {
 	background color: #59B300;
 	color: #ffffff;
+    -webkit-transition: opacity .4s ease-in-out;
+    -moz-transition: opacity .4s ease-in-out;
+    -ms-transition: opacity .4s ease-in-out;
+    -o-transition: opacity .4s ease-in-out;
 }
 
 .navbar-customized .navbar-brand {
