@@ -4,15 +4,15 @@
 }
 
 .navbar-customized .navbar-hover,
-.navbar-customize .navbar-focus {
+.navbar-customized .navbar-focus {
 	background-color: #181818;
 	color: 	#ffffff;
 }
 
-.navbar-default .navbar-nav > .active > a, 
-.navbar-default .navbar-nav > .active > a:hover, 
-.navbar-default .navbar-nav > .active > a:focus {
-	background color: #59b300;
+.navbar-customized .navbar-nav > .active > a, 
+.navbar-customized .navbar-nav > .active > a:hover, 
+.navbar-customized .navbar-nav > .active > a:focus {
+	background color: #59B300;
 	color: #ffffff;
 }
 
