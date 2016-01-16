@@ -1,12 +1,22 @@
+@font-face {
+	font-family: 'Bellerose';
+	font-style: normal;
+	font-weight: normal;
+	src: url('font/Bellerose')
+}
+
 .navbar-customized {
 	background-color: #666666;
-	color: #ffffff;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 .navbar-customized .navbar-hover,
 .navbar-customize .navbar-focus {
 	color: #3b4442;
+}
+
+.navbar-customized .navbar-nav > li > a {
+	color: #ffffff;
 }
 
 .navbar-customized .navbar-active {
