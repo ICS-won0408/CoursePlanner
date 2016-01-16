@@ -8,6 +8,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script src="js/tableSorter.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('#courses').tablesorter();
+    })
+  </script>
 </head>
 
 <body>
@@ -34,7 +39,7 @@
 
 <div class = "main">
   <h2> Courses </h2>
-  <table id = "courses" class = "tablesorter">
+  <table id = "courses" class = "table table-bordered tablesorter">
     <thead>
       <tr>
         <th>Course Number</th>
@@ -58,7 +63,6 @@
           x+=1;
         });
       });
-      $('#courses').tablesorter();
     });
   </script>
 </div>
