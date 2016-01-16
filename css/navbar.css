@@ -1,6 +1,7 @@
 .navbar-customized {
 	background-color: #666666;
 	font-family: "Century Gothic", sans-serif;
+	font-size: 20px;
 }
 
 .navbar-customized .nav > li > a:hover {
