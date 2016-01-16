@@ -5,11 +5,11 @@
 
 .navbar-customized .nav > li > a:hover {
 	background-color: #181818;
-    	-webkit-transition: all ease .4s;
-    	-moz-transition: all ease .4s;
-    	-ms-transition: all ease .4s;
-    	-o-transition: all ease .4s;
-    	transition: all ease .4s;
+    	-webkit-transition: all ease .7s;
+    	-moz-transition: all ease .7s;
+    	-ms-transition: all ease .7s;
+    	-o-transition: all ease .7s;
+    	transition: all ease .7s;
 }
 
 .navbar-customized .nav > li > a {
@@ -22,5 +22,5 @@
 }
 
 .navbar-customized .navbar-brand {
-	color: #000000;
+	color: #ffffff;
 }
