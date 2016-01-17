@@ -121,3 +121,6 @@
 .modal-backdrop{
   background-color:white;
 }
+.modal-dialog{
+  padding-top:15%;
+}
