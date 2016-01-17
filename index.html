@@ -5,6 +5,7 @@
   <meta charset = "utf-8">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="css/about.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script src="js/tableSorter.js"></script>
@@ -26,7 +27,7 @@
         <li><a href="html/jacklloyd.html">Planning Guide</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="html/about.html"><i class="glyphicon glyphicon-info-sign"></i> About</a></li>
+        <li><a href="html/about.html" data-toggle="modal" data-target = "#aboutModal"><i class="glyphicon glyphicon-info-sign"></i> About</a></li>
       </ul>
     </div>
   </nav>
@@ -48,6 +49,19 @@
     
   </tbody> 
   </table>
+  
+<div id = "aboutModal" class="modal fade" role="dialog">
+  <div class = "modal-header">
+    <button type = "button" class = "close" data-dismiss="modal">&times</button>
+    <h4 class = "modal-title">About</h4>
+  </div>
+  <div class="modal-body">
+    <p class = "prasad">"If you study well and still fail the test, that's just life"<br> - Reuel Prasad</p>
+    <p class="desc">
+    The Course Planner is an online tool used for planning courses at ICS. It provides information and student ratings for each course.
+    </p>
+  </div>
+</div>
   <script>
   var x = 0
     $(document).ready(function(){  
