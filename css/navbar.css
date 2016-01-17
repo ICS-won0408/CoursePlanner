@@ -17,8 +17,8 @@
 .navbar-customized .nav > li > a {
 	color: 	#ffffff;
 }
-.navbar-customized .navbar-nav > .active > a:focus{
-	color: #ffffff;
+.navbar-customized .nav > .active > a:focus{
+	color:  #ffffff;
 }
 
 .navbar-customized .navbar-brand {
