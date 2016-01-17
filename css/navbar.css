@@ -17,6 +17,10 @@
 .navbar-customized .nav > li > a {
 	color: 	#ffffff;
 }
+.navbar-customized::selection
+{
+	color: #ffffff;
+}
 
 .navbar-customized .navbar-brand {
 	color: #ffffff;
