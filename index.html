@@ -80,7 +80,7 @@
         $("#courses").tablesorter();
       });
     });
-    if($('#aboutModal').is(':visible')){
+    if($('#aboutModal').hasClass('in')){
       $(document).keyup(function(e){
         if(e.keyCode==27)
           $('#aboutModal').modal('toggle');
