@@ -14,10 +14,6 @@
     	transition: all ease .7s;
 }
 
-.navbar-customized .nav > li > a {
-	color: 	#ffffff;
-}
-
 .navbar-customized .navbar-brand {
 	color: #ffffff;
 }
