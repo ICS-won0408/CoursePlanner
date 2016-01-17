@@ -118,9 +118,8 @@
   -o-animation-delay:1.5s;
   animation-delay: 1.5s;
 }
-.modal-backdrop{
-  background-color:white;
-}
 .modal-dialog{
   padding-top:15%;
+  background-color:white;
+  
 }
