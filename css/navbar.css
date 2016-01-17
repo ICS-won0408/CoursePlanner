@@ -1,6 +1,6 @@
 @keyframes slidein {
-	from { height: 0;}
-	to { height: 100%;}
+	from { height: 0px;}
+	to { height: 20px;}
 }
 
 .navbar-customized {
