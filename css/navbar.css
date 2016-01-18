@@ -1,16 +1,8 @@
-@keyframes slidein {
-	from { height: 0px;}
-	to { height: 20px;}
-}
-
 .navbar-customized {
 	background-color: #666666;
 	font-family: "Century Gothic", sans-serif;
 	font-size: 20px;
 	margin-bottom: 0;
-	animation-name: slidein;
-	animation-duration: 1s;
-	height: 20px;
 }
 
 .navbar-customized .nav > li > a:hover {
@@ -25,6 +17,11 @@
 .navbar-customized .nav > li > a {
 	color: 	#ffffff;
 }
+
+.navbar-customized .nav > .active {
+	background-color: #00b300;
+}
+
 .navbar-customized .nav > .active > a:focus{
 	color:  #ffffff;
 }
