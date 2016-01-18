@@ -1,13 +1,13 @@
 {
   "007": {
     "Teacher": "Deaton",
-    "Rating": "4.5",
+    "Rating": "0.0",
     "Department": "English",
     "Course": "Composition"
   },
   "011": {
     "Teacher": "Stephens",
-    "Rating": "4.5",
+    "Rating": "0.0",
     "Department": "English",
     "Course": "Literature Survey"
   }
