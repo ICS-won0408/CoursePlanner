@@ -23,7 +23,8 @@
 	background-color: #00b300;
 }
 
-.navbar-customized .nav > .active > a:focus{
+.navbar-customized .nav > .active > a{
+	background-color: #00b300;;
 	color:  #ffffff;
 }
 
