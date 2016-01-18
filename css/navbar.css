@@ -19,7 +19,7 @@
 	color: 	#ffffff;
 }
 
-.navbar-customized .nav > .active {
+.navbar-customized .nav > li > a:active {
 	background-color: #00b300;
 }
 
