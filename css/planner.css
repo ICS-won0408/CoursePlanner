@@ -4,6 +4,8 @@
     background-color: #94A8D5;
     opacity: 0;
     color: white;
+    padding-left: 110px;
+    padding-right: 110px;
     -webkit-animation:fadeIn ease-in 1;
     -moz-animation:fadeIn ease-in 1;
     -ms-animation:fadeIn ease-in 1;
