@@ -1,3 +1,18 @@
+.planner{
+    background: url('https://my.ics.edu.hk/@api/deki/files/296/=front_of_school_rotated_sm.jpg')  no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    font-family: "Century Gothic", sans-serif;
+    color: white;
+    font-size:16px;
+    text-shadow: 1px 1px #000000;
+    
+    animation:fadeIn1 ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration:1s;
+    animation-delay: .25s;
+}
+
 .requirements {
     padding-top: 1cm;
     padding-bottom: 1cm;
@@ -32,25 +47,10 @@
     animation-delay: 1.5s;
 }
 
-.planner{
-    background: url('https://my.ics.edu.hk/@api/deki/files/296/=front_of_school_rotated_sm.jpg')  no-repeat center center fixed;
-    background-size: cover;
-    text-align: center;
-    font-family: "Century Gothic", sans-serif;
-    color: white;
-    font-size:16px;
-    text-shadow: 1px 1px #000000;
-    
-    animation:fadeIn1 ease-in 1;
-    animation-fill-mode:forwards;
-    animation-duration:1s;
-    animation-delay: .5s;
-}
-
 @keyframes fadeIn1 {
   from {
       opacity: 0;
-      background-color: rgba(143, 163, 218, 1);
+      background-color: rgba(0, 0, 0, 1);
        } to {
         opacity: 1;
     background-color: rgba(143, 163, 218, 0.5);
@@ -60,7 +60,7 @@
 @keyframes fadeIn2 {
   from {
       opacity: 0;
-       background-color: rgba(108, 135, 198, 1);
+       background-color: rgba(0, 0, 0, 1);
     } to {
         opacity: 1;
     background-color: rgba(108, 135, 198, 0.55);
@@ -70,7 +70,7 @@
 @keyframes fadeIn3 {
   from {
       opacity: 0;
-       background-color: rgba(71, 105, 184, 1);
+       background-color: rgba(0, 0, 0, 1);
     } to {
         opacity: 1;
     background-color: rgba(71, 105, 184, 0.6);
