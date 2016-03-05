@@ -6,6 +6,11 @@
     color: white;
     font-size:16px;
     text-shadow: 1px 1px #000000;
+    
+    animation:fadeIn1 ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration:1s;
+    animation-delay: .5s;
 }
 
 .requirements {
