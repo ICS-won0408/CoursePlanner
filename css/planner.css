@@ -1,5 +1,5 @@
 .planner{
-    background-image: url('https://my.ics.edu.hk/@api/deki/files/296/=front_of_school_rotated_sm.jpg');
+    background: url('https://my.ics.edu.hk/@api/deki/files/296/=front_of_school_rotated_sm.jpg')  no-repeat center center fixed;
     background-size: cover;
     text-align: center;
     font-family: "Century Gothic", sans-serif;
