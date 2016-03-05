@@ -1,3 +1,9 @@
+.planner{
+    background-image: url('https://my.ics.edu.hk/@api/deki/files/296/=front_of_school_rotated_sm.jpg');
+    opacity: 60%;
+    background-size: cover;
+}
+
 .requirements {
     text-align: center;
     font-family: "Century Gothic", sans-serif;
