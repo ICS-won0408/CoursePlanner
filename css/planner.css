@@ -6,6 +6,7 @@
     color: white;
     font-size:16px;
     text-shadow: 1px 1px #000000;
+    opacity: 0;
     
     animation:fadeIn1 ease-in 1;
     animation-fill-mode:forwards;
@@ -18,6 +19,7 @@
     padding-bottom: 1cm;
     padding-left: 300px;
     padding-right: 300px;
+    opacity: 0;
     
     animation:fadeIn1 ease-in 1;
     animation-fill-mode:forwards;
@@ -29,6 +31,7 @@
     padding-bottom: 35px;
     padding-left: 300px;
     padding-right: 300px;
+    opacity: 0;
     
     animation:fadeIn2 ease-in 1;
     animation-fill-mode:forwards;
@@ -40,6 +43,7 @@
     padding-bottom: 15px;
     padding-left: 300px;
     padding-right: 300px;
+    opacity: 0;
     
     animation:fadeIn3 ease-in 1;
     animation-fill-mode:forwards;
