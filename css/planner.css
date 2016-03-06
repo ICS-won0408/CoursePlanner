@@ -1,3 +1,23 @@
+.sidebar-nav-fixed{
+  text-align:left;
+  color: lightcyan;
+  font-size:16px;
+  text-shadow: 1px 1px #000000;
+  font-family: "Century Gothic", sans-serif;
+  padding-top: 10cm;
+  padding-left:1cm;
+  z-index:1;
+  position:fixed;
+}
+
+.sidebar-nav-fixed li a{
+  text-align:left;
+  color: white;
+  font-size:16px;
+  text-shadow: 1px 1px #000000;
+  font-family: "Century Gothic", sans-serif;
+}
+
 .planner{
     background: url('https://my.ics.edu.hk/@api/deki/files/296/=front_of_school_rotated_sm.jpg')  no-repeat center center fixed;
     background-size: cover;
