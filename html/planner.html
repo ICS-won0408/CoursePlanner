@@ -47,7 +47,7 @@
 </div>
 </div>
 <div class="sidebar-nav-fixed affix">
-  <ul class="nav">
+  <ul class="navside">
     <li class="nav-header">Menu</li>
     <li><a href="#requirements">Requirements</a></li>
     <li><a href="#retaking">Retaking Courses</a></li>
@@ -127,9 +127,8 @@
 </div>
 <script>
   $(document).ready(function()){
-    $("sidebar-nav-fixed.affix").click(function(evn)){
-      evn.preventDefault();
-      $("html,body").scrollTo(this.hash,this.hash);
+   $("ul.navside li").click(function(e){
+     $("html,body").animate({scrollTop:$((this).attr("href")).position().top},"500");
     });
   });
 </script>
