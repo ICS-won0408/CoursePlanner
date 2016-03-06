@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="../css/navbar.css">
     <link rel="stylesheet" type="text/css" href="../css/about.css">
     <link rel="stylesheet" type="text/css" href="../css/planner.css">
+    <link rel="stylesheet" type="text/css" href="../css/plannernav.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
@@ -46,8 +47,16 @@
   </div>
 </div>
 </div>
+<div class="sidebar-nav-fixed affix">
+  <ul class="nav">
+    <li class="nav-header">Menu</li>
+    <li><a href="#requirements">Requirements</a></li>
+    <li><a href="#retaking">Retaking Coursess</a></li>
+    <li><a href="#honors">Requirements</a>Honors/AP Courses</li>
+  </ul>
+</div>
 <div class="planner">
-  <div class="requirements">
+  <div class="requirements" id="requirements">
   <h2>Requirements</h2>
   <p>In order to graduate, you must meet the minimum credit requirement, which is 25 credits. In addition to that, you must also have
      the minimum credit requirement for each type of course:</p>
@@ -85,7 +94,7 @@
        <li>Health must be taken in either 10th grade or above.</li>
      </ul>
 </div>
-<div class="retaking">
+<div class="retaking" id="retaking">
   <h2>Retaking Courses</h2>
   <p>Courses can be retaken if you have a C or below, but the maximum possible grade that can be attained will be a B. The
      course with the higher grade will be used to calculate your GPA while the course with the lower grade will show up on
@@ -93,7 +102,7 @@
   <p>Some courses can be retaken for more than once for credit: music, theater arts, theater technology, video production,
      yearbook, PE team sports, and Worship on the Word.</p>
 </div>
-<div class="honors">
+<div class="honors" id="honors">
   <h2>Honors/AP Courses</h2>
   <p>There are two types of honors courses: dedicated and layered. Some courses are by default honors courses, which means they are
      dedicated honors courses, and will provide honors credits. Other courses can be taken as an honors course, but also has a regular
