@@ -128,7 +128,8 @@
 <script>
   $(document).ready(function(){
    $("ul.navside li").click(function(e){
-     $("html,body").animate({scrollTop:$($(this).attr("href")).position().top},"500");
+     var x = $(this).attr("href");
+     $("html,body").animate({scrollTop:$(#x).position().top},"500");
     });
   });
 </script>
