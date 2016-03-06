@@ -1,7 +1,7 @@
 .sidebar-nav-fixed{
   text-align:left;
   color: lightcyan;
-  font-size:16px;
+  font-size:20px;
   text-shadow: 1px 1px #000000;
   font-family: "Century Gothic", sans-serif;
   padding-top: 10cm;
@@ -13,7 +13,7 @@
 .sidebar-nav-fixed li a{
   text-align:left;
   color: white;
-  font-size:16px;
+  font-size:18px;
   text-shadow: 1px 1px #000000;
   font-family: "Century Gothic", sans-serif;
 }
@@ -82,6 +82,18 @@
     animation-duration:1s;
     animation-delay: 2s;
 }
+.online {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 300px;
+    padding-right: 300px;
+    opacity: 0;
+    
+    animation:fadeIn5 ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration:1s;
+    animation-delay: 2.5s;
+}
 
 @keyframes fadeIn1 {
   from {
@@ -120,5 +132,15 @@
     } to {
         opacity: 1;
     background-color: rgba(43, 63, 110, 0.65);
+    }
+}
+
+@keyframes fadeIn4 {
+  from {
+      opacity: 0;
+       background-color: rgba(0, 0, 0, 0.7);
+    } to {
+        opacity: 1;
+    background-color: rgba(35, 52, 91, 0.7);
     }
 }
