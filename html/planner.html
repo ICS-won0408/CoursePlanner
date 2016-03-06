@@ -125,5 +125,13 @@
      fee is paid.</p>
 </div>
 </div>
+<script>
+  $(document).ready(function()){
+    $("sidebar-nav-fixed.affix").click(function(evn)){
+      evn.preventDefault();
+      $("html,body").scrollTo(this.hash,this.hash);
+    });
+  });
+</script>
 </body>
 </html>
