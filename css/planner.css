@@ -163,7 +163,7 @@ table td{
     }
 }
 
-@keyframes fadeIn5 {
+@keyframes fadeIn6 {
   from {
       opacity: 0;
        background-color: rgba(0, 0, 0, 0.75);
