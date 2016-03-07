@@ -48,7 +48,7 @@
 </div>
 <div class="sidebar-nav-fixed affix">
   <ul class="navside list-unstyled">
-    <li class="nav-header">Menu</li>
+    <li class="nav-header" id = "sidebar">Menu</li>
     <li><a href="#requirements">Requirements</a></li>
     <li><a href="#retaking">Retaking Courses</a></li>
     <li><a href="#honors">Honors/AP Courses</a></li>
@@ -180,9 +180,9 @@
 </div>
 <script>
   $(document).ready(function(){
-   $("ul.navside li").click(function(e){
-     var $scrollLink = $(this);
-     $("html,body").animate({scrollTop:($($scrollLink.attr("href").hash))},1500);
+   $("#sidebar li>a").click(function(){
+     var posi = $(this).attr("href").offset().top;
+     $("html,body").animate({scrollTop:posi},1000);
     });
   });
 </script>
