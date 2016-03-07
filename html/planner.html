@@ -181,9 +181,10 @@
 <script>
   $(document).ready(function(){
    $("#sidebar li>a").click(function(){
-     var posi = $(this).attr("href").offset().top;
-     alert(posi);
-     $("body,html").animate({scrollTop:posi},1000);
+     var ref = $(this).attr("href");
+     var position = $(ref).offset().top;
+     alert(position);
+     $("body,html").animate({scrollTop:position},1000);
     });
   });
 </script>
