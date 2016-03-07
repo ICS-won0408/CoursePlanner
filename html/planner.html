@@ -182,7 +182,8 @@
 </div>
 <script>
   $(document).ready(function(){
-   $("#sidebar li>a").click(function(){
+   $("#sidebar li>a").click(function(e){
+     e.preventDefault();
      var ref = $(this).attr("href");
      var position = $($(this).attr("href")).offset().top;
      $("body,html").animate({scrollTop:position},1000);
