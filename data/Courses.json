@@ -1,14 +1,908 @@
 {
-  "007": {
-    "Teacher": "Deaton",
-    "Rating": "0.0",
-    "Department": "English",
-    "Course": "Composition"
-  },
-  "011": {
-    "Teacher": "Stephens",
-    "Rating": "0.0",
-    "Department": "English",
-    "Course": "Literature Survey"
-  }
+	"033": {
+		"Course": "Grade 9 Language Arts",
+		"Credits": 1,
+		"Department": "English Language Arts Philosophy and Courses",
+		"Teacher": "Deaton, Daniels"
+	},
+	"012": {
+		"Course": "Composition",
+		"Credits": 1,
+		"Department": "English Language Arts Philosophy and Courses",
+		"Teacher": "Deaton "
+	},
+	"005": {
+		"Course": "Literature Survey",
+		"Credits": 1,
+		"Department": "English Language Arts Philosophy and Courses",
+		"Teacher": "Stephens"
+	},
+	"013": {
+		"Course": "Journalism",
+		"Credits": 0.5,
+		"Department": "English Language Arts Philosophy and Courses",
+		"Teacher": "Nollan"
+	},
+	"017": {
+		"Course": "Rhetorical Writing and Speech",
+		"Credits": 0.5,
+		"Department": "English Language Arts Philosophy and Courses",
+		"Teacher": "Nollan"
+	},
+	"019": {
+		"Course": "Poets and Poetry",
+		"Credits": 0.5,
+		"Department": "English Language Arts Philosophy and Courses",
+		"Teacher": "Deaton"
+	},
+	"052": {
+		"Course": "College Writing",
+		"Credits": 1,
+		"Department": "English Language Arts Philosophy and Courses",
+		"Teacher": "Nollan"
+	},
+	"006\n": {
+		"Course": "Novel and Creative Writing",
+		"Credits": 1,
+		"Department": "English Language Arts Philosophy and Courses",
+		"Teacher": "Daniels, Stephens"
+	},
+	"050": {
+		"Course": "Honors American Literature",
+		"Credits": 0.5,
+		"Department": "English Language Arts Philosophy and Courses",
+		"Teacher": "Stephens"
+	},
+	"051": {
+		"Course": "Honors British Literature",
+		"Credits": 0.5,
+		"Department": "English Language Arts Philosophy and Courses",
+		"Teacher": "Stephens"
+	},
+	"020": {
+		"Course": "AP Language and Composition",
+		"Credits": 1,
+		"Department": "English Language Arts Philosophy and Courses",
+		"Teacher": "Stephens"
+	},
+	"104": {
+		"Course": "New Testament – Acts and Epistles",
+		"Credits": 1,
+		"Department": "Bible Philosophy and Courses",
+		"Teacher": "Paine"
+	},
+	"118": {
+		"Course": "World Religions",
+		"Credits": 0.5,
+		"Department": "Bible Philosophy and Courses",
+		"Teacher": "Vaudrey"
+	},
+	"109": {
+		"Course": "Biblical Ethics",
+		"Credits": 0.5,
+		"Department": "Bible Philosophy and Courses",
+		"Teacher": "Vaudrey"
+	},
+	"117": {
+		"Course": "Christian Apologetics",
+		"Credits": 0.5,
+		"Department": "Bible Philosophy and Courses",
+		"Teacher": "Keung"
+	},
+	"115": {
+		"Course": "Life Calling – A Biblical Perspective",
+		"Credits": 0.5,
+		"Department": "Bible Philosophy and Courses",
+		"Teacher": "Widdifield"
+	},
+	"112": {
+		"Course": "Bible - Songs, Visions, and Dreams",
+		"Credits": 0.5,
+		"Department": "Bible Philosophy and Courses",
+		"Teacher": "Wible"
+	},
+	"113": {
+		"Course": "Walk the Talk – A Biblical Perspective",
+		"Credits": 0.5,
+		"Department": "Bible Philosophy and Courses",
+		"Teacher": "Keung"
+	},
+	"111": {
+		"Course": "Discovering the Godly Leader in You",
+		"Credits": 0.5,
+		"Department": "Bible Philosophy and Courses",
+		"Teacher": "Keung"
+	},
+	"110": {
+		"Course": "Faith and Popular Culture",
+		"Credits": 0.5,
+		"Department": "Bible Philosophy and Courses",
+		"Teacher": "Chan, Vaudrey"
+	},
+	"108": {
+		"Course": "Worship on the Word (WOW)",
+		"Credits": 0.5,
+		"Department": "Bible Philosophy and Courses",
+		"Teacher": "Ross(S)"
+	},
+	"119": {
+		"Course": "Transformed: Spiritual Disciplines",
+		"Credits": 0.5,
+		"Department": "Bible Philosophy and Courses",
+		"Teacher": "Quick"
+	},
+	"215": {
+		"Course": "Algebra 1",
+		"Credits": 1,
+		"Department": "Mathematics Philosophy and Courses",
+		"Teacher": "Tackett"
+	},
+	"207": {
+		"Course": "Algebra 2",
+		"Credits": 1,
+		"Department": "Mathematics Philosophy and Courses",
+		"Teacher": "Ross(S)"
+	},
+	"": {
+		"Course": "Geometry",
+		"Credits": 1,
+		"Department": "Mathematics Philosophy and Courses",
+		"Teacher": "Tam"
+	},
+	"": {
+		"Course": "Honors Geometry",
+		"Credits": 1,
+		"Department": "Mathematics Philosophy and Courses",
+		"Teacher": "Tam"
+	},
+	"209": {
+		"Course": "Pre-Calculus",
+		"Credits": 1,
+		"Department": "Mathematics Philosophy and Courses",
+		"Teacher": "Kwan, Ross(S)"
+	},
+	"252": {
+		"Course": "Honors Pre-Calculus",
+		"Credits": 1,
+		"Department": "Mathematics Philosophy and Courses",
+		"Teacher": "Kwan, Ross(S)"
+	},
+	"210": {
+		"Course": "Statistics",
+		"Credits": 1,
+		"Department": "Mathematics Philosophy and Courses",
+		"Teacher": "Tam"
+	},
+	"216": {
+		"Course": "AP Statistics",
+		"Credits": 1,
+		"Department": "Mathematics Philosophy and Courses",
+		"Teacher": "Hoden"
+	},
+	"212": {
+		"Course": "Introductory Calculus",
+		"Credits": 1,
+		"Department": "Mathematics Philosophy and Courses",
+		"Teacher": "N/A"
+	},
+	"211": {
+		"Course": "AP Calculus AB",
+		"Credits": 1,
+		"Department": "Mathematics Philosophy and Courses",
+		"Teacher": "Kwan, Ross(S)"
+	},
+	"219": {
+		"Course": "AP Calculus BC",
+		"Credits": 1,
+		"Department": "Mathematics Philosophy and Courses",
+		"Teacher": "Van Tassel"
+	},
+	"310": {
+		"Course": "Modern European History",
+		"Credits": 1,
+		"Department": "Social Sciences Philosophy and Courses",
+		"Teacher": "Knox, Cliff"
+	},
+	"305": {
+		"Course": "Asian Studies",
+		"Credits": 1,
+		"Department": "Social Sciences Philosophy and Courses",
+		"Teacher": "Knox, Prasad"
+	},
+	"306": {
+		"Course": "Microeconomics",
+		"Credits": 0.5,
+		"Department": "Social Sciences Philosophy and Courses",
+		"Teacher": "Cliff"
+	},
+	"318": {
+		"Course": "AP Microeconomics",
+		"Credits": 0.5,
+		"Department": "Social Sciences Philosophy and Courses",
+		"Teacher": "Cliff"
+	},
+	"307": {
+		"Course": "Macroeconomics",
+		"Credits": 0.5,
+		"Department": "Social Sciences Philosophy and Courses",
+		"Teacher": "Cliff"
+	},
+	"319": {
+		"Course": "AP Macroeconomics",
+		"Credits": 0.5,
+		"Department": "Social Sciences Philosophy and Courses",
+		"Teacher": "Cliff"
+	},
+	"309": {
+		"Course": "Introduction to Psychology",
+		"Credits": 1,
+		"Department": "Social Sciences Philosophy and Courses",
+		"Teacher": "Tackett"
+	},
+	"317": {
+		"Course": "AP Psychology",
+		"Credits": 1,
+		"Department": "Social Sciences Philosophy and Courses",
+		"Teacher": "Tackett"
+	},
+	"312": {
+		"Course": "Introduction to Human Rights",
+		"Credits": 0.5,
+		"Department": "Social Sciences Philosophy and Courses",
+		"Teacher": "Prasad"
+	},
+	"314": {
+		"Course": "Honors Introduction to Human Rights",
+		"Credits": 0.5,
+		"Department": "Social Sciences Philosophy and Courses",
+		"Teacher": "Prasad"
+	},
+	"315": {
+		"Course": "Middle East Studies",
+		"Credits": 0.5,
+		"Department": "Social Sciences Philosophy and Courses",
+		"Teacher": "Prasad"
+	},
+	"350": {
+		"Course": "Honors Middle East Studies",
+		"Credits": 0.5,
+		"Department": "Social Sciences Philosophy and Courses",
+		"Teacher": "Prasad"
+	},
+	"321": {
+		"Course": "Introduction to Anthropology",
+		"Credits": 0.5,
+		"Department": "Social Sciences Philosophy and Courses",
+		"Teacher": "N/A"
+	},
+	"322": {
+		"Course": "Introduction to Sociology",
+		"Credits": 0.5,
+		"Department": "Social Sciences Philosophy and Courses",
+		"Teacher": "N/A"
+	},
+	"308\n": {
+		"Course": "AP US History",
+		"Credits": 1,
+		"Department": "Social Sciences Philosophy and Courses",
+		"Teacher": "N/A"
+	},
+	"316": {
+		"Course": "AP World History",
+		"Credits": 1,
+		"Department": "Social Sciences Philosophy and Courses",
+		"Teacher": "Prasad"
+	},
+	"320": {
+		"Course": "AP European History",
+		"Credits": 1,
+		"Department": "Social Sciences Philosophy and Courses",
+		"Teacher": "Prasad"
+	},
+	"405": {
+		"Course": "Biology",
+		"Credits": 1,
+		"Department": "Science Philosophy and Courses",
+		"Teacher": "Ward, Burnett"
+	},
+	"450": {
+		"Course": "Honors Biology",
+		"Credits": 1,
+		"Department": "Science Philosophy and Courses",
+		"Teacher": "Ward, Burnett"
+	},
+	"407": {
+		"Course": "Chemistry",
+		"Credits": 1,
+		"Department": "Science Philosophy and Courses",
+		"Teacher": "Porterfield, Lall"
+	},
+	"451": {
+		"Course": "Honors Chemistry",
+		"Credits": 1,
+		"Department": "Science Philosophy and Courses",
+		"Teacher": "Porterfield, Lall"
+	},
+	"410": {
+		"Course": "Forensic Science",
+		"Credits": 0.5,
+		"Department": "Science Philosophy and Courses",
+		"Teacher": "Ward, Burnett"
+	},
+	"415": {
+		"Course": "Earth Science",
+		"Credits": 0.5,
+		"Department": "Science Philosophy and Courses",
+		"Teacher": "Ward "
+	},
+	"416": {
+		"Course": "Environmental Science",
+		"Credits": 0.5,
+		"Department": "Science Philosophy and Courses",
+		"Teacher": "Ward"
+	},
+	"417": {
+		"Course": "Human Anatomy and Physiology",
+		"Credits": 0.5,
+		"Department": "Science Philosophy and Courses",
+		"Teacher": "Ward"
+	},
+	"454": {
+		"Course": "STEM (Engineering Science)",
+		"Credits": 0.5,
+		"Department": "Science Philosophy and Courses",
+		"Teacher": "Lall"
+	},
+	"453": {
+		"Course": "Honors Physics",
+		"Credits": 1,
+		"Department": "Science Philosophy and Courses",
+		"Teacher": "Lall"
+	},
+	"421": {
+		"Course": "AP Physics 1",
+		"Credits": 1,
+		"Department": "Science Philosophy and Courses",
+		"Teacher": "Lall"
+	},
+	"430": {
+		"Course": "Advanced Honors Biology",
+		"Credits": 1,
+		"Department": "Science Philosophy and Courses",
+		"Teacher": "Burnett"
+	},
+	"435": {
+		"Course": "AP Biology",
+		"Credits": 1,
+		"Department": "Science Philosophy and Courses",
+		"Teacher": "Burnett"
+	},
+	"436": {
+		"Course": "AP Biology (Lab)",
+		"Credits": 0.5,
+		"Department": "Science Philosophy and Courses",
+		"Teacher": "Auty"
+	},
+	"440": {
+		"Course": "Advanced Honors Chemistry",
+		"Credits": 1,
+		"Department": "Science Philosophy and Courses",
+		"Teacher": "Auty"
+	},
+	"445": {
+		"Course": "AP Chemistry",
+		"Credits": 1,
+		"Department": "Science Philosophy and Courses",
+		"Teacher": "Auty"
+	},
+	"446": {
+		"Course": "AP Chemistry (Lab)",
+		"Credits": 0.5,
+		"Department": "Science Philosophy and Courses",
+		"Teacher": "Auty"
+	},
+	"422": {
+		"Course": "AP Physics 2",
+		"Credits": 1,
+		"Department": "Science Philosophy and Courses",
+		"Teacher": "Lall"
+	},
+	"420": {
+		"Course": "AP Environmental Science",
+		"Credits": 1,
+		"Department": "Science Philosophy and Courses",
+		"Teacher": "Porterfield  "
+	},
+	"533": {
+		"Course": "Health – Boys",
+		"Credits": 0.5,
+		"Department": "Health Education Philosophy",
+		"Teacher": "N/A"
+	},
+	"538": {
+		"Course": "Health – Girls",
+		"Credits": 0.5,
+		"Department": "Health Education Philosophy",
+		"Teacher": "N/A"
+	},
+	"539": {
+		"Course": "PE Boys G9",
+		"Credits": 1,
+		"Department": "Physical Education Philosophy",
+		"Teacher": "Whenuaroa"
+	},
+	"540": {
+		"Course": "PE Girls G9",
+		"Credits": 1,
+		"Department": "Physical Education Philosophy",
+		"Teacher": "Minutolo"
+	},
+	"551": {
+		"Course": "PE Boys G10",
+		"Credits": 1,
+		"Department": "Physical Education Philosophy",
+		"Teacher": "Whenuaroa, Cresswell"
+	},
+	"552": {
+		"Course": "PE Girls G10",
+		"Credits": 1,
+		"Department": "Physical Education Philosophy",
+		"Teacher": "Minutolo"
+	},
+	"549": {
+		"Course": "PE G11/12 (Semester 1/ Semester 2)",
+		"Credits": 0.5,
+		"Department": "Physical Education Philosophy",
+		"Teacher": "Nollan, Cresswell"
+	},
+	"": {
+		"Course": "Team Sports: Volleyball, Swimming, Cross-Country",
+		"Credits": 0.5,
+		"Department": "Physical Education Philosophy",
+		"Teacher": "N/A"
+	},
+	"": {
+		"Course": "Team Sports: Basketball, Tennis, Ball Hockey",
+		"Credits": 0.5,
+		"Department": "Physical Education Philosophy",
+		"Teacher": "N/A"
+	},
+	"571": {
+		"Course": "Sport Team and Leadership (Football)",
+		"Credits": 0.5,
+		"Department": "Physical Education Philosophy",
+		"Teacher": "Cresswell"
+	},
+	"580AIC": {
+		"Course": "Advanced Individual Sports Contract (AISC)",
+		"Credits": 1,
+		"Department": "Physical Education Philosophy",
+		"Teacher": "N/A"
+	},
+	"643": {
+		"Course": "HS Chinese Communication 1",
+		"Credits": 1,
+		"Department": "World Languages Philosophy and Courses",
+		"Teacher": "Dove"
+	},
+	"644": {
+		"Course": "HS Chinese Communication 2",
+		"Credits": 1,
+		"Department": "World Languages Philosophy and Courses",
+		"Teacher": "Lam"
+	},
+	"646": {
+		"Course": "HS Chinese Communication 3",
+		"Credits": 1,
+		"Department": "World Languages Philosophy and Courses",
+		"Teacher": "Liu"
+	},
+	"647": {
+		"Course": "HS AP Chinese Communication 4",
+		"Credits": 1,
+		"Department": "World Languages Philosophy and Courses",
+		"Teacher": "Lo"
+	},
+	"649": {
+		"Course": "HS Advanced Honors Chinese Communication 5",
+		"Credits": 1,
+		"Department": "World Languages Philosophy and Courses",
+		"Teacher": "Dove"
+	},
+	"650": {
+		"Course": "HS Advanced Honors Chinese Communication 6",
+		"Credits": 1,
+		"Department": "World Languages Philosophy and Courses",
+		"Teacher": "Liu"
+	},
+	"671": {
+		"Course": "HS Advanced Honors Chinese Literacy 7",
+		"Credits": 1,
+		"Department": "World Languages Philosophy and Courses",
+		"Teacher": "Zhu"
+	},
+	"654": {
+		"Course": "HS Advanced Honors Chinese Literacy 8",
+		"Credits": 1,
+		"Department": "World Languages Philosophy and Courses",
+		"Teacher": "Zhu"
+	},
+	"661": {
+		"Course": "HS Advanced Honors Chinese Literacy 9",
+		"Credits": 1,
+		"Department": "World Languages Philosophy and Courses",
+		"Teacher": "Dove"
+	},
+	"662": {
+		"Course": "HS Advanced Honors Chinese Literacy 10",
+		"Credits": 1,
+		"Department": "World Languages Philosophy and Courses",
+		"Teacher": "Zou"
+	},
+	"663": {
+		"Course": "HS Advanced Honors Chinese Literacy 11",
+		"Credits": 1,
+		"Department": "World Languages Philosophy and Courses",
+		"Teacher": "Liu"
+	},
+	"615": {
+		"Course": "HS French 1",
+		"Credits": 1,
+		"Department": "World Languages Philosophy and Courses",
+		"Teacher": "Chan"
+	},
+	"616": {
+		"Course": "French 2",
+		"Credits": 1,
+		"Department": "World Languages Philosophy and Courses",
+		"Teacher": "Chan"
+	},
+	"617": {
+		"Course": "French 3",
+		"Credits": 1,
+		"Department": "World Languages Philosophy and Courses",
+		"Teacher": "Chan"
+	},
+	"618": {
+		"Course": "French 4",
+		"Credits": 1,
+		"Department": "World Languages Philosophy and Courses",
+		"Teacher": "Chan"
+	},
+	"619": {
+		"Course": "AP French 5",
+		"Credits": 1,
+		"Department": "World Languages Philosophy and Courses",
+		"Teacher": "Chan"
+	},
+	"712": {
+		"Course": "Drawing 1",
+		"Credits": 0.5,
+		"Department": "Visual Art Philosophy and Courses",
+		"Teacher": "Swinehart"
+	},
+	"711": {
+		"Course": "Painting 1",
+		"Credits": 0.5,
+		"Department": "Visual Art Philosophy and Courses",
+		"Teacher": "Swinehart"
+	},
+	"707": {
+		"Course": "Drawing 2",
+		"Credits": 0.5,
+		"Department": "Visual Art Philosophy and Courses",
+		"Teacher": "Meyer"
+	},
+	"708": {
+		"Course": "Painting 2",
+		"Credits": 0.5,
+		"Department": "Visual Art Philosophy and Courses",
+		"Teacher": "Meyer"
+	},
+	"715": {
+		"Course": "Photography 1",
+		"Credits": 0.5,
+		"Department": "Visual Art Philosophy and Courses",
+		"Teacher": "Meyer"
+	},
+	"784": {
+		"Course": "Photography 2",
+		"Credits": 0.5,
+		"Department": "Visual Art Philosophy and Courses",
+		"Teacher": "Meyer"
+	},
+	"7131": {
+		"Course": "Contemporary Media and Design (Introduction to HS Art)",
+		"Credits": 0.5,
+		"Department": "Visual Art Philosophy and Courses",
+		"Teacher": "Swinehart"
+	},
+	"733": {
+		"Course": "3-D Art",
+		"Credits": 0.5,
+		"Department": "Visual Art Philosophy and Courses",
+		"Teacher": "Swinehart"
+	},
+	"754": {
+		"Course": "Ceramics 1",
+		"Credits": 0.5,
+		"Department": "Visual Art Philosophy and Courses",
+		"Teacher": "Swinehart"
+	},
+	"782": {
+		"Course": "Ceramics 2",
+		"Credits": 0.5,
+		"Department": "Visual Art Philosophy and Courses",
+		"Teacher": "Swinehart"
+	},
+	"7831": {
+		"Course": "Ceramics 3",
+		"Credits": 0.5,
+		"Department": "Visual Art Philosophy and Courses",
+		"Teacher": "Swinehart"
+	},
+	"714": {
+		"Course": "Graphic Design 1",
+		"Credits": 0.5,
+		"Department": "Visual Art Philosophy and Courses",
+		"Teacher": "Meyer"
+	},
+	"783": {
+		"Course": "Graphic Design 2",
+		"Credits": 0.5,
+		"Department": "Visual Art Philosophy and Courses",
+		"Teacher": "Meyer"
+	},
+	"717": {
+		"Course": "Advanced Honors Art",
+		"Credits": 1,
+		"Department": "Visual Art Philosophy and Courses",
+		"Teacher": "Meyer"
+	},
+	"716": {
+		"Course": "Yearbook",
+		"Credits": 1,
+		"Department": "Visual Art Philosophy and Courses",
+		"Teacher": "Meyer"
+	},
+	"718": {
+		"Course": "AP Studio Art",
+		"Credits": 1,
+		"Department": "Visual Art Philosophy and Courses",
+		"Teacher": "Meyer"
+	},
+	"7512": {
+		"Course": "Acting for the Camera",
+		"Credits": 0.5,
+		"Department": "Theater Arts Philosophy and Courses",
+		"Teacher": "N/A"
+	},
+	"7513": {
+		"Course": "Theater Arts 1 – S1 Standard Production",
+		"Credits": 0.5,
+		"Department": "Theater Arts Philosophy and Courses",
+		"Teacher": "Klumpp"
+	},
+	"7515": {
+		"Course": "Theater Arts 1 – S2 Standard Production",
+		"Credits": 0.5,
+		"Department": "Theater Arts Philosophy and Courses",
+		"Teacher": "Klumpp"
+	},
+	"7514": {
+		"Course": "Theater Arts 2 – S1 Alternative Production",
+		"Credits": 0.5,
+		"Department": "Theater Arts Philosophy and Courses",
+		"Teacher": "Klumpp"
+	},
+	"7516": {
+		"Course": "Theater Arts 2 – S2 Alternative Production",
+		"Credits": 0.5,
+		"Department": "Theater Arts Philosophy and Courses",
+		"Teacher": "Klumpp"
+	},
+	"762": {
+		"Course": "Theater Technology - S1",
+		"Credits": 0.5,
+		"Department": "Theater Arts Philosophy and Courses",
+		"Teacher": "Wilson"
+	},
+	"7621": {
+		"Course": "Theater Technology - S2",
+		"Credits": 0.5,
+		"Department": "Theater Arts Philosophy and Courses",
+		"Teacher": "Wilson"
+	},
+	"737": {
+		"Course": "Adagio Singers",
+		"Credits": 0.5,
+		"Department": "Music Philosophy and Courses",
+		"Teacher": "Kwong"
+	},
+	"7372": {
+		"Course": "Adagio Singers 2",
+		"Credits": 0.5,
+		"Department": "Music Philosophy and Courses",
+		"Teacher": "Kwong"
+	},
+	"766": {
+		"Course": "ICS Voices",
+		"Credits": 0.5,
+		"Department": "Music Philosophy and Courses",
+		"Teacher": "N/A"
+	},
+	"7662": {
+		"Course": "ICS Men’s / Ladies’ Choir",
+		"Credits": 0.5,
+		"Department": "Music Philosophy and Courses",
+		"Teacher": "Yapp, Kwong"
+	},
+	"765": {
+		"Course": "ICS Singers",
+		"Credits": 0.5,
+		"Department": "Music Philosophy and Courses",
+		"Teacher": "Wible"
+	},
+	"753": {
+		"Course": "Show Choir",
+		"Credits": 0.5,
+		"Department": "Music Philosophy and Courses",
+		"Teacher": "Wible"
+	},
+	"764": {
+		"Course": "Show Band",
+		"Credits": 0.5,
+		"Department": "Music Philosophy and Courses",
+		"Teacher": "Miller"
+	},
+	"763": {
+		"Course": "Concert Band",
+		"Credits": 0.5,
+		"Department": "Music Philosophy and Courses",
+		"Teacher": "Ross"
+	},
+	"7962": {
+		"Course": "Chamber Strings Ensemble",
+		"Credits": 0.5,
+		"Department": "Music Philosophy and Courses",
+		"Teacher": "Weldon"
+	},
+	"7004": {
+		"Course": "Exploring Music",
+		"Credits": 0.5,
+		"Department": "Music Philosophy and Courses",
+		"Teacher": "N/A"
+	},
+	"7008": {
+		"Course": "Digital Music Course",
+		"Credits": 0.5,
+		"Department": "Music Philosophy and Courses",
+		"Teacher": "N/A"
+	},
+	"7005": {
+		"Course": "Class Piano 1",
+		"Credits": 0.5,
+		"Department": "Music Philosophy and Courses",
+		"Teacher": "N/A"
+	},
+	"7002": {
+		"Course": "Class Guitar 1",
+		"Credits": 0.5,
+		"Department": "Music Philosophy and Courses",
+		"Teacher": "Miller"
+	},
+	"7006": {
+		"Course": "Class Guitar 2",
+		"Credits": 0.5,
+		"Department": "Music Philosophy and Courses",
+		"Teacher": "Miller"
+	},
+	"7001": {
+		"Course": "Music Theory",
+		"Credits": 0.5,
+		"Department": "Music Philosophy and Courses",
+		"Teacher": "Ross"
+	},
+	"7007": {
+		"Course": "AP Music Theory",
+		"Credits": 1,
+		"Department": "Music Philosophy and Courses",
+		"Teacher": "N/A"
+	},
+	"790": {
+		"Course": "Introduction to Media Production",
+		"Credits": 0.5,
+		"Department": "Media Studies Philosophy and Courses",
+		"Teacher": "Chan"
+	},
+	"797": {
+		"Course": "Popular Culture in Media",
+		"Credits": 0.5,
+		"Department": "Media Studies Philosophy and Courses",
+		"Teacher": "Chan, Vaudrey"
+	},
+	"792": {
+		"Course": "Film Studies",
+		"Credits": 0.5,
+		"Department": "Media Studies Philosophy and Courses",
+		"Teacher": "Chan"
+	},
+	"798": {
+		"Course": "Media Advertising and Image",
+		"Credits": 0.5,
+		"Department": "Media Studies Philosophy and Courses",
+		"Teacher": "Chan"
+	},
+	"7972": {
+		"Course": "Video Production",
+		"Credits": 0.5,
+		"Department": "Media Studies Philosophy and Courses",
+		"Teacher": "Chan"
+	},
+	"7971": {
+		"Course": "TV News and Documentary",
+		"Credits": 0.5,
+		"Department": "Media Studies Philosophy and Courses",
+		"Teacher": "Chan"
+	},
+	"709": {
+		"Course": "Independent Filmmaking (Independent Learning)",
+		"Credits": 0.5,
+		"Department": "Media Studies Philosophy and Courses",
+		"Teacher": "Chan"
+	},
+	"804": {
+		"Course": "Digital Literacy",
+		"Credits": 0.5,
+		"Department": "Information and Technology Literacy Philosophy and Courses",
+		"Teacher": "Matvejevs"
+	},
+	"817": {
+		"Course": "Graphic Design 1",
+		"Credits": 0.5,
+		"Department": "Information and Technology Literacy Philosophy and Courses",
+		"Teacher": "Meyer"
+	},
+	"818": {
+		"Course": "Introduction to Media Production",
+		"Credits": 0.5,
+		"Department": "Information and Technology Literacy Philosophy and Courses",
+		"Teacher": "Chan"
+	},
+	"819": {
+		"Course": "Video Production",
+		"Credits": 0.5,
+		"Department": "Information and Technology Literacy Philosophy and Courses",
+		"Teacher": "Chan"
+	},
+	"820": {
+		"Course": "Media Advertising and Image",
+		"Credits": 0.5,
+		"Department": "Information and Technology Literacy Philosophy and Courses",
+		"Teacher": "Chan"
+	},
+	"800": {
+		"Course": "Audio Technology (Independent Learning)",
+		"Credits": 0.5,
+		"Department": "Information and Technology Literacy Philosophy and Courses",
+		"Teacher": "Ross"
+	},
+	"805": {
+		"Course": "Independent Filmmaking (Independent Learning)",
+		"Credits": 0.5,
+		"Department": "Information and Technology Literacy Philosophy and Courses",
+		"Teacher": "Chan"
+	},
+	"811D  ": {
+		"Course": "Intro to Computer Programming (Online Learning)",
+		"Credits": 1,
+		"Department": "Information and Technology Literacy Philosophy and Courses",
+		"Teacher": "N/A"
+	},
+	"850D": {
+		"Course": "AP Computer Science (Distance Learning)",
+		"Credits": 1,
+		"Department": "Information and Technology Literacy Philosophy and Courses",
+		"Teacher": "N/A"
+	}
 }
