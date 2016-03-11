@@ -37,6 +37,6 @@
 	color: #ffffff;
 }
 
-#courses:hover{
-	color: rgb(138,168,213);
+#courses>tr:hover{
+	background-color: rgb(138,168,213);
 }
