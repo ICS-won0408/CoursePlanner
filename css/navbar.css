@@ -36,3 +36,7 @@
 .navbar-customized .navbar-brand {
 	color: #ffffff;
 }
+
+#courses:hover{
+	color: rgb(138,168,213);
+}
