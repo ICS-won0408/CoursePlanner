@@ -94,14 +94,20 @@
           x+=1;
         });
       });
-      $("#courses tr").click(function(){
-        var courseNumber = $(this).find(".courseNum").text();
-        alert(courseNumber)
-        });
+      
       
     });
   </script>
+<script>
+  $(document).ready(function(){  
+    $("#courses tr").click(function(){
+          var courseNumber = $(this).find(".courseNum").text();
+          alert(courseNumber)
+          });
+  });
+</script>
 </div>
+
 
 </body>
 </html>
