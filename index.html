@@ -95,7 +95,7 @@
         });
       });
       $("#courses tr").click(function(){
-        var courseNumber = $(this).attr("courseNum");
+        var courseNumber = $(this).find(".courseNum").text();
         alert(courseNumber)
         });
       
