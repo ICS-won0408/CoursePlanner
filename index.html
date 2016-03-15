@@ -89,12 +89,12 @@
       $.getJSON("data/Courses.json", function(data)
       {
         $.each(data, function(key, val){
-          $('#courses > tbody').append("<tr><td>" + Object.keys(data)[x] + "</td><td>" + val.Course + "</td><td>" + val.Credits + "</td><td>"+val.Teacher+"</td><td>" + val.Department + "</td></tr>");
+          $('#courses > tbody').append("<tr><td class = "courseNum">" + Object.keys(data)[x] + "</td><td>" + val.Course + "</td><td>" + val.Credits + "</td><td>"+val.Teacher+"</td><td>" + val.Department + "</td></tr>");
           x+=1;
         });
       });
       $("#courses tr").onClick(function(){
-        var courseNumber = $(this).attr(.courseNum);
+        var courseNumber = $(this).attr("courseNum");
         alert(courseNumber)
         });
       
