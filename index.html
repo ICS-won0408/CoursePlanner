@@ -67,23 +67,39 @@
     The Course Planner is an online tool used for planning courses at ICS. It provides information and student ratings for each course.
     </p>
   </div>
+  </div>
+</div>
+
+  <div class="modal fade" id = "courseModal" role="dialog" tabindex="-1" data-keyboard = "true">
+  <div class = "modal-dialog">
+  <div class = "modal-header">
+    <button type = "button" class = "close" data-dismiss="modal">x</button>
+    <h4 class = "modal-title"></h4>
+  </div>
+  <div class="modal-body">
+    <p class="desc">
+    
+    </p>
+  </div>
+  </div>
 </div>
 </div>
-  <script>
+<script>
   var x = 0
     $(document).ready(function(){  
       $.getJSON("data/Courses.json", function(data)
       {
         $.each(data, function(key, val){
-          $('#courses > tbody').append("<tr><td>" + Object.keys(data)[x] + "</td><td>" + val.Course + "</td><td>" + val.Credits + "</td><td>"+val.Teacher+"</td><td>" + val.Department + "</td></tr>");
+          $('#courses > tbody').append("<tr><td class="courseNum">" + Object.keys(data)[x] + "</td><td>" + val.Course + "</td><td>" + val.Credits + "</td><td>"+val.Teacher+"</td><td>" + val.Department + "</td></tr>");
           x+=1;
         });
       });
       $("#courses tr").onClick(function(){
+        var courseNumber = $(this).attr(.courseNum);
+        alert(courseNumber)
         });
       
     });
   </script>
-</div>
 </body>
 </html>
