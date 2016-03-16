@@ -96,11 +96,11 @@
       });
       $(document).on("click", "#courses tr", function(){
         var courseNumber = $(this).find(".courseNum").text();
-        alert(courseNumber)
         $("#courseTitle").empty();
         $("#courseDesc").empty();
         $.getJSON("data/Courses.json", function(data){
           var courseData = data[parseInt(x)];
+          console.log(courseData);
           $("#courseTitle").append(courseData.Course);
           $("#courseDesc").append(courseData.Department);
         });
