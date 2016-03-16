@@ -100,7 +100,7 @@
         $("#courseDesc").empty();
         $.getJSON("data/Courses.json", function(data){
           var courseData = data[parseInt(x)];
-          console.log(data[007]);
+          console.log(Object.keys(data));
           $("#courseTitle").append(courseData.Course);
           $("#courseDesc").append(courseData.Department);
         });
