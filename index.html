@@ -94,7 +94,10 @@
           x+=1;
         });
       });
-      $("#courses tr").css("cursor", "pointer");
+      
+      $(document).on("hover", "#courses tr", function(){
+        $("#courses tr").css("cursor", "pointer");  
+      });
       $(document).on("click", "#courses tr", function(){
         var courseNumber = $(this).find(".courseNum").text();
         $("#courseTitle").empty();
