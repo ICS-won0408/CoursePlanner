@@ -102,7 +102,7 @@
         $.getJSON("data/Courses.json", function(data){
           var courseData = data[parseInt(x)];
           $("#courseTitle").append(courseData.Course);
-          $("#courseDesc".append(courseData.Department);
+          $("#courseDesc").append(courseData.Department);
         });
         $("#courseModal").modal("show");
         });
