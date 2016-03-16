@@ -72,12 +72,12 @@
 
   <div class="modal fade" id = "courseModal" role="dialog" tabindex="-1" data-keyboard = "true">
   <div class = "modal-dialog">
-  <div class = "modal-header">
+  <div class = "modal-header" id = "courseHeader">
     <button type = "button" class = "close" data-dismiss="modal">x</button>
-    <h4 class = "modal-title"></h4>
+    <h4 class = "modal-title" id = "courseTitle"></h4>
   </div>
   <div class="modal-body">
-    <p class="desc">
+    <p class="desc" id = "courseDesc">
     
     </p>
   </div>
@@ -97,6 +97,14 @@
       $(document).on("click", "#courses tr", function(){
         var courseNumber = $(this).find(".courseNum").text();
         alert(courseNumber)
+        $("#courseTitle").empty();
+        $("#courseDesc").empty();
+        $.getJSON("data/Courses.json", function(data){
+          var courseData = data[parseInt(x)];
+          $("#courseTitle").append(courseData.Course);
+          $("#courseDesc".append(courseData.Department);
+        });
+        $("#courseModal").modal("show");
         });
     });
   </script>
