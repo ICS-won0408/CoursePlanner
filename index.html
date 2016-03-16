@@ -94,16 +94,13 @@
           x+=1;
         });
       });
-      $(document).on("hover", "#courses tr", function(){
-        $(this).css("cursor", "pointer");
-      });
+      $("#courses tr").css("cursor", "pointer");
       $(document).on("click", "#courses tr", function(){
         var courseNumber = $(this).find(".courseNum").text();
         $("#courseTitle").empty();
         $("#courseDesc").empty();
         $.getJSON("data/Courses.json", function(data){
           var courseData = data[courseNumber];
-          console.log(Object.keys(data));
           $("#courseTitle").append(courseData.Course);
           $("#courseDesc").append(courseData.Department);
         });
