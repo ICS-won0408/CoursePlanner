@@ -104,7 +104,8 @@
         $("#courseDesc").empty();
         $.getJSON("data/Courses.json", function(data){
           $.getJSON("data/desc.json",function(descriptions){
-            console.log(Object.keys(descriptions))
+            console.log(Object.keys(descriptions));
+            $("#courseDesc").append(descriptions[courseNumber]);
           });
           var courseData = data[courseNumber];
           $("#courseTitle").append(courseData.Course);
