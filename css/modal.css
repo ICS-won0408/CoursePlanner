@@ -1,0 +1,17 @@
+@font-face{
+  font-family: 'Geosans Light';
+  src: url('https://dl.dropboxusercontent.com/s/kg6csh5ogpr4f5b/GeosansLight.ttf?dl=0');
+}
+
+@font-face{
+  font-family: "Imperator"
+  src: url('https://dl.dropboxusercontent.comm/s/uyvgmpz4nzym0b2/Imperator.ttf?dl=0');
+}
+
+.modal-title{
+  font-family: "Geosans Light", sans-serif;
+}
+
+.modal-dialog{
+  font-family: "Imperator", serif;
+}
