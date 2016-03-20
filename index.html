@@ -106,7 +106,8 @@
       });
       
       $(document).on("mouseenter", "#courses tr", function(){
-        $("#courses tr").css("cursor", "pointer");  
+        $("#courses tr").css("cursor", "pointer");
+        $("th").css("cursor","default");
       });
       $(document).on("click", "#courses tr", function(){
         var courseNumber = $(this).find(".courseNum").text();
