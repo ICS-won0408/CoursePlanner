@@ -124,6 +124,10 @@
           $("#courseDesc").append(courseData.Department);
         });
         $.getJSON("data/grades.json", function(grades){
+          if(grades == null){
+            $("#courseDesc").append("No Data");
+            return;
+          }
           $("#courseDesc").append(grades[courseNumber] + '\n');
         })
         $("#courseModal").modal("show");
