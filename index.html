@@ -130,6 +130,9 @@
           }
           $("#courseDesc").append(grades[courseNumber].toFixed(2) + '\n');
         })
+        if($(this).hasClass("th")){
+          return;
+        }
         $("#courseModal").modal("show");
         });
     });
