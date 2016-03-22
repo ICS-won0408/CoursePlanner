@@ -128,7 +128,7 @@
             $("#courseDesc").append("No Data");
             return;
           }
-          $("#courseDesc").append(grades[courseNumber] + '\n');
+          $("#courseDesc").append(grades[courseNumber].toFixed(2) + '\n');
         })
         $("#courseModal").modal("show");
         });
