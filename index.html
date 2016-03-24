@@ -125,7 +125,7 @@
         });
         $.getJSON("data/grades.json", function(grades){
           console.log(grades);
-          if(grades === null){
+          if(grades == undefined){
             $("#courseDesc").append("No Data");
         }
           else{
