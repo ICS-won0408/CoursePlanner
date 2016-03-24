@@ -124,6 +124,7 @@
           $("#courseDesc").append(courseData.Department);
         });
         $.getJSON("data/grades.json", function(grades){
+          console.log(grades);
           if(grades === null){
             $("#courseDesc").append("No Data");
         }
