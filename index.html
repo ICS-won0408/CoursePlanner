@@ -125,12 +125,13 @@
         });
         $.getJSON("data/grades.json", function(grades){
           console.log(grades);
-          if(grades === undefined){
-            $("#courseDesc").append("No Data");
-        }
-          else{
+         
+          if(grades != undefined){
           $("#courseDesc").append(grades[courseNumber].toFixed(2) + '\n');
           }
+          else{
+            $("#courseDesc").append("No Data");
+        }
         });
         console.log($(this));
         if($(this).hasClass("th")){
