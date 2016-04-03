@@ -88,6 +88,8 @@
     <h4 class = "modal-title" id = "courseTitle"></h4>
   </div>
   <div class="modal-body">
+    <p class="gpa"></p>
+    <p class="department"</p>
     <p class="desc" id = "courseDesc">
     
     </p>
@@ -113,6 +115,8 @@
       $(document).on("click", "#courses tr", function(){
         var courseNumber = $(this).find(".courseNum").text();
         $("#courseTitle").empty();
+        $(".gpa").empty();
+        $(".department").empty();
         $("#courseDesc").empty();
         $.getJSON("data/Courses.json", function(data){
           $.getJSON("data/desc.json",function(descriptions){
@@ -121,16 +125,16 @@
           });
           var courseData = data[courseNumber];
           $("#courseTitle").append(courseData.Course);
-          $("#courseDesc").append(courseData.Department);
+          $(".department").append(courseData.Department);
         });
         $.getJSON("data/grades.json", function(grades){
           console.log(grades);
          
           if(grades != undefined){
-          $("#courseDesc").append(grades[courseNumber].toFixed(2) + '\n');
+          $(".gpa").append(grades[courseNumber].toFixed(2) + '\n');
           }
           else{
-            $("#courseDesc").append("No Data");
+            $(".gpa").append("No Data");
         }
         });
         console.log($(this));
