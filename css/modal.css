@@ -17,3 +17,9 @@
 .modal-dialog{
   font-family: "Imperator", serif;
 }
+
+h2{
+  font-family: "Geosans Light", sans-serif;
+  text-align: center;
+  font-size: 50px;
+}
