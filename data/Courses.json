@@ -416,67 +416,67 @@
 	"533": {
 		"Course": "Health – Boys",
 		"Credits": 0.5,
-		"Department": "Health Education",
+		"Department": "Health Education Philosophy",
 		"Teacher": "N/A"
 	},
 	"538": {
 		"Course": "Health – Girls",
 		"Credits": 0.5,
-		"Department": "Health Education",
+		"Department": "Health Education Philosophy",
 		"Teacher": "N/A"
 	},
 	"539": {
 		"Course": "PE Boys G9",
 		"Credits": 1,
-		"Department": "Physical Education",
+		"Department": "Physical Education Philosophy",
 		"Teacher": "Whenuaroa"
 	},
 	"540": {
 		"Course": "PE Girls G9",
 		"Credits": 1,
-		"Department": "Physical Education",
+		"Department": "Physical Education Philosophy",
 		"Teacher": "Minutolo"
 	},
 	"551": {
 		"Course": "PE Boys G10",
 		"Credits": 1,
-		"Department": "Physical Education",
+		"Department": "Physical Education Philosophy",
 		"Teacher": "Whenuaroa, Cresswell"
 	},
 	"552": {
 		"Course": "PE Girls G10",
 		"Credits": 1,
-		"Department": "Physical Education",
+		"Department": "Physical Education Philosophy",
 		"Teacher": "Minutolo"
 	},
 	"549": {
 		"Course": "PE G11/12 (Semester 1/ Semester 2)",
 		"Credits": 0.5,
-		"Department": "Physical Education",
+		"Department": "Physical Education Philosophy",
 		"Teacher": "Nollan, Cresswell"
 	},
 	"": {
 		"Course": "Team Sports: Volleyball, Swimming, Cross-Country",
 		"Credits": 0.5,
-		"Department": "Physical Education",
+		"Department": "Physical Education Philosophy",
 		"Teacher": "N/A"
 	},
 	"": {
 		"Course": "Team Sports: Basketball, Tennis, Ball Hockey",
 		"Credits": 0.5,
-		"Department": "Physical Education",
+		"Department": "Physical Education Philosophy",
 		"Teacher": "N/A"
 	},
 	"571": {
 		"Course": "Sport Team and Leadership (Football)",
 		"Credits": 0.5,
-		"Department": "Physical Education",
+		"Department": "Physical Education Philosophy",
 		"Teacher": "Cresswell"
 	},
 	"580AIC": {
 		"Course": "Advanced Individual Sports Contract (AISC)",
 		"Credits": 1,
-		"Department": "Physical Education",
+		"Department": "Physical Education Philosophy",
 		"Teacher": "N/A"
 	},
 	"643": {
