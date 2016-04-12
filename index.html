@@ -120,15 +120,15 @@
         $("#courseDesc").empty();
         $.getJSON("data/Courses.json", function(data){
           $.getJSON("data/desc.json",function(descriptions){
-            console.log(Object.keys(descriptions));
-            $("#courseDesc").append("Description: " + descriptions[courseNumber] + '\n');
+           $("#courseDesc").append("Description: " + descriptions[courseNumber] + '\n');
+            console.log(descriptions[courseNumber]); 
           });
           var courseData = data[courseNumber];
           $("#courseTitle").append(courseData.Course);
           $(".department").append("Department: " + courseData.Department);
         });
         $.getJSON("data/grades.json", function(grades){
-          console.log(grades);
+          
          
           if(grades != undefined){
           $(".gpa").append("Average GPA: " + grades[courseNumber].toFixed(2) + '\n');
