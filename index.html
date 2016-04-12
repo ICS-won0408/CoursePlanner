@@ -120,8 +120,9 @@
         $("#courseDesc").empty();
         $.getJSON("data/Courses.json", function(data){
           $.getJSON("data/desc.json",function(descriptions){
+           console.log(descriptions);
            $("#courseDesc").append("Description: " + descriptions[courseNumber] + '\n');
-            console.log(descriptions[courseNumber]); 
+          
           });
           var courseData = data[courseNumber];
           $("#courseTitle").append(courseData.Course);
