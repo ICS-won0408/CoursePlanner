@@ -124,6 +124,7 @@
         $.getJSON("data/Courses.json", function(data){
           $.getJSON("data/desc.json",function(descriptions){
             $("#courseDesc").append("Description: " + descriptions[courseNumber] + '\n');
+            console.log(descriptions);
             if(descriptions[courseNumber] == undefined){
               return;
             }
