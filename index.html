@@ -116,6 +116,7 @@
       });
       $(document).on("click", "#courses tr", function(){
         var courseNumber = $(this).find(".courseNum").text();
+        console.log(courseNumber);
         $("#courseTitle").empty();
         $(".gpa").empty();
         $(".department").empty();
