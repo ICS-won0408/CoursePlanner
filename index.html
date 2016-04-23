@@ -133,7 +133,7 @@
           $(".department").append("Department: " + courseData.Department);
         });
         $.getJSON("data/grades.json", function(grades){
-          if(grades != undefined){
+          if(!isNaN(grades[courseNumber])){
             $(".gpa").append("Average GPA: " + grades[courseNumber].toFixed(2) + '\n');
             console.log("I has data!");
           }
