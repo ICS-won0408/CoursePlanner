@@ -117,15 +117,13 @@
       });
       $(document).on("click", "#courses tr", function(){
         var courseNumber = $(this).find(".courseNum").text();
-        console.log(courseNumber);
-        $("#courseTitle").empty();
+       $("#courseTitle").empty();
         $(".gpa").empty();
         $(".department").empty();
         $("#courseDesc").empty();
         $.getJSON("data/Courses.json", function(data){
           $.getJSON("data/desc.json",function(descriptions){
             $("#courseDesc").append("Description: " + descriptions[courseNumber] + '\n');
-            console.log(descriptions);
             if(descriptions[courseNumber] == undefined){
               return;
             }
@@ -135,10 +133,8 @@
           $(".department").append("Department: " + courseData.Department);
         });
         $.getJSON("data/grades.json", function(grades){
-          console.log(grades);
-         
           if(grades != undefined){
-          $(".gpa").append("Average GPA: " + grades[courseNumber].toFixed(2) + '\n');
+            $(".gpa").append("Average GPA: " + grades[courseNumber].toFixed(2) + '\n');
           }
           else{
             $(".gpa").append("GPA: No Data");
