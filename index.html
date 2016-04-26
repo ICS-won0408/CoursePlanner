@@ -32,7 +32,7 @@
           Course Planner
         </a>
           <div class="form-group">
-           <input type="text" class="form-control" id="search" placeholder="Search:">
+           <input type="text" class="form-control" id="search" placeholder="Search by number/name/teacher: ">
           </div>
       </div>
       <ul class="nav navbar-nav">
@@ -149,6 +149,10 @@
         });
         $('#search').keyup(function() {
           var input = $('#search').val();
+          if(!NaN){
+            var x = document.getElementByID("tr");
+            console.log(x);
+          }
           alert(input);
   });
 });
