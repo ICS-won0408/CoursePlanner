@@ -104,8 +104,8 @@
       $.getJSON("data/Courses.json", function(data)
       {
         $.each(data, function(key, val){
-          $('#courses > tbody').append("<tr><td class = \"courseNum\">" + Object.keys(data)[x] + "</td><td>" + val.Course + "</td><td>" 
-            + val.Credits + "</td><td>"+val.Teacher+"</td><td>" + val.Department + "</td></tr>");
+          $('#courses > tbody').append("<tr><td class = \"courseNum\">" + Object.keys(data)[x] + "</td><td class = \"courseName\">" + val.Course + "</td><td>" 
+            + val.Credits + "</td><td class = \"courseTeacher\">"+val.Teacher+"</td><td class = \"courseDepartment\">" + val.Department + "</td></tr>");
           x+=1;
         });
       });
