@@ -150,8 +150,8 @@
         $('#search').keyup(function() {
           var input = $('#search').val();
           // $(x[1]).parent().css("display","none") to hide thing
-          if(!NaN){
             var x = $(".courseNum");
+            var name = $(".courseName");
             console.log(x);
             for(var lel = 0; lel < x.length; lel++){
               if(input == ""){
@@ -159,15 +159,19 @@
                 continue;
               }
               for(var y = 0; y < input.length; y++){
-                if($(x[lel]).text().substring(0,y+1) != input.substring(0,y+1)){
-                  $(x[lel]).parent().css("display","none");
+                if(!isNaN(input)){
+                  if($(x[lel]).text().substring(0,y+1) != input.substring(0,y+1)){
+                    $(x[lel]).parent().css("display","none");
+                  }
                 }
+                else if($(name[lel]).text().substring(0,y+1) != input.substring(0,y+1)){
+                    $(name[lel]).parent().css("display","none");
                 else{
                   $(x[lel]).parent().css("display","");
                 }
               }
             }
-          }
+          
           
   });
 });
