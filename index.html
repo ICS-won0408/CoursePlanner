@@ -153,13 +153,13 @@
           if(!NaN){
             var x = $(".courseNum");
             console.log(x);
-            for(var thing in x){
-              if(x==""){
-                $(thing).parent().css("display","");
+            for(var lel = 0; lel < x.length; x++){
+              if(input == ""){
+                $(x[lel]).parent().css("display","");
               }
               for(var y = 0; y < input.length; y++){
-                if($(thing).text()[y] != input[y]){
-                  $(thing).parent().css('display',"none");
+                if($(x[lel]).text()[y] != input[y]){
+                  $(x[lel]).parent().css("display","none");
                 }
               }
             }
