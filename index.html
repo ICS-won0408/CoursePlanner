@@ -156,6 +156,7 @@
             for(var lel = 0; lel < x.length; x++){
               if(input == ""){
                 $(x[lel]).parent().css("display","");
+                continue;
               }
               for(var y = 0; y < input.length; y++){
                 if($(x[lel]).text()[y] != input[y]){
