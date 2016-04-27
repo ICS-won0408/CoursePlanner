@@ -162,6 +162,9 @@
                 if($(x[lel]).text()[y] != input[y]){
                   $(x[lel]).parent().css("display","none");
                 }
+                else if($(x[lel]).text()[y] == input[y]){
+                  $(x[lel]).parent().css("display","");
+                }
               }
             }
           }
