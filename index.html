@@ -159,7 +159,7 @@
                 continue;
               }
               for(var y = 0; y < input.length; y++){
-                if($(x[lel]).text()[y] != input[y]){
+                if($(x[lel]).text()[y] != input[y] && $(x[lel]).css("display")==""){
                   $(x[lel]).parent().css("display","none");
                 }
                 else if($(x[lel]).text()[y] == input[y]){
