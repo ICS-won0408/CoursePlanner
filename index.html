@@ -155,11 +155,11 @@
             console.log(x);
             for(var thing in x){
               if(x==""){
-                thing.css("display","");
+                $(thing).css("display","");
               }
               for(var y = 0; y < input.length; y++){
                 if($(thing).text()[y] != input[y]){
-                  thing.css('display',"none");
+                  $(thing).css('display',"none");
                 }
               }
             }
