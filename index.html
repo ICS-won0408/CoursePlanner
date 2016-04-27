@@ -163,12 +163,15 @@
                   if($(x[lel]).text().substring(0,y+1) != input.substring(0,y+1)){
                     $(x[lel]).parent().css("display","none");
                   }
+                  else{
+                     $(x[lel]).parent().css("display","");
+                  }
                 }
-                else if($(name[lel]).text().substring(0,y+1) != input.substring(0,y+1)){
+                else if($(name[lel]).text().substring(0,y+1).toLowerCase() != input.substring(0,y+1).toLowerCase()){
                     $(name[lel]).parent().css("display","none");
                 }
                 else{
-                  $(x[lel]).parent().css("display","");
+                  $(name[lel]).parent().css("display","");
                 }
               }
             }
