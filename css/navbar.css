@@ -52,6 +52,10 @@ tr:hover{
 
 #search {
   width: 270px;
-  margin-top: 140px;
+  margin-left: 20px;
+}
+.form-group>p{
+	font:12px;
+	width:300px;
 }
 
