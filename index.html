@@ -174,6 +174,9 @@
                   $(name[lel]).parent().css("display","");
                 }
               }
+              if($(name[lel]).text().toLowerCase().indexOf(input.toLowerCase()) == -1){
+                   $(x[lel]).parent().css("display","none");
+              }
             }
   });
 });
