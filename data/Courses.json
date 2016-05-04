@@ -63,6 +63,12 @@
 		"Course": "AP Language and Composition",
 		"Credits": 1,
 		"Department": "English Language Arts",
+		"Teacher": "N/A"
+	},
+	"009": {
+		"Course": "AP English Literature and Composition",
+		"Credits": 1,
+		"Department": "English Language Arts",
 		"Teacher": "Stephens"
 	},
 	"104": {
