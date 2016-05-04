@@ -168,11 +168,13 @@
                   }
                 }
               }
-              if($(name[lel]).text().toLowerCase().indexOf(input.toLowerCase()) == -1){
-                   $(x[lel]).parent().css("display","none");
-              }
-               else{
-                     $(x[lel]).parent().css("display","");
+              if(isNaN(input)){
+                if($(name[lel]).text().toLowerCase().indexOf(input.toLowerCase()) == -1){
+                     $(x[lel]).parent().css("display","none");
+                }
+                 else{
+                       $(x[lel]).parent().css("display","");
+                }
               }
             }
   });
