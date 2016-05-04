@@ -15,7 +15,7 @@
 		"Course": "Literature Survey",
 		"Credits": 1,
 		"Department": "English Language Arts",
-		"Teacher": "Stephens"
+		"Teacher": "Stephen"
 	},
 	"013": {
 		"Course": "Journalism",
@@ -45,19 +45,19 @@
 		"Course": "Novel and Creative Writing",
 		"Credits": 1,
 		"Department": "English Language Arts",
-		"Teacher": "Daniels, Stephens"
+		"Teacher": "Daniels, Stephen"
 	},
 	"050": {
 		"Course": "Honors American Literature",
 		"Credits": 0.5,
 		"Department": "English Language Arts",
-		"Teacher": "Stephens"
+		"Teacher": "Stephen"
 	},
 	"051": {
 		"Course": "Honors British Literature",
 		"Credits": 0.5,
 		"Department": "English Language Arts",
-		"Teacher": "Stephens"
+		"Teacher": "Stephen"
 	},
 	"020": {
 		"Course": "AP Language and Composition",
@@ -69,7 +69,7 @@
 		"Course": "AP English Literature and Composition",
 		"Credits": 1,
 		"Department": "English Language Arts",
-		"Teacher": "Stephens"
+		"Teacher": "Stephen"
 	},
 	"104": {
 		"Course": "New Testament – Acts and Epistles",
@@ -165,13 +165,13 @@
 		"Course": "Pre-Calculus",
 		"Credits": 1,
 		"Department": "Mathematics",
-		"Teacher": "Kwan, Ross(S)"
+		"Teacher": "Kwon, Ross(S)"
 	},
 	"252": {
 		"Course": "Honors Pre-Calculus",
 		"Credits": 1,
 		"Department": "Mathematics",
-		"Teacher": "Kwan, Ross(S)"
+		"Teacher": "Kwon, Ross(S)"
 	},
 	"210": {
 		"Course": "Statistics",
@@ -195,7 +195,7 @@
 		"Course": "AP Calculus AB",
 		"Credits": 1,
 		"Department": "Mathematics",
-		"Teacher": "Kwan, Ross(S)"
+		"Teacher": "Kwon, Ross(S)"
 	},
 	"219": {
 		"Course": "AP Calculus BC",
@@ -741,7 +741,7 @@
 		"Course": "ICS Men’s / Ladies’ Choir",
 		"Credits": 0.5,
 		"Department": "Music",
-		"Teacher": "Yapp, Kwong"
+		"Teacher": "Yap, Kwong"
 	},
 	"765": {
 		"Course": "ICS Singers",
