@@ -291,7 +291,7 @@
 		"Course": "AP US History",
 		"Credits": 1,
 		"Department": "Social Sciences",
-		"Teacher": "N/A"
+		"Teacher": "Knox"
 	},
 	"316": {
 		"Course": "AP World History",
@@ -305,14 +305,14 @@
 		"Department": "Social Sciences",
 		"Teacher": "Prasad"
 	},
-	"405": {
-		"Course": "Biology",
+	"471": {
+		"Course": "Integrated Science",
 		"Credits": 1,
 		"Department": "Science",
 		"Teacher": "Ward, Burnett"
 	},
-	"450": {
-		"Course": "Honors Biology",
+	"472": {
+		"Course": "Honors Integrated Science",
 		"Credits": 1,
 		"Department": "Science",
 		"Teacher": "Ward, Burnett"
